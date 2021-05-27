@@ -8,6 +8,17 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
+ @import url('http://fonts.cdnfonts.com/css/harry-potter');
+
+#carouselExampleSlidesOnly{
+  height: 350px;
+  margin-top: -60px;
+}
+
+                
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -527,9 +538,10 @@ section {
 .breadcrumbs {
   margin-top: 73px;
   text-align: center;
-  background: #5fcf80;
+  background: #111;
   padding: 30px 0;
   color: #fff;
+  height: 70px;
 }
 
 @media (max-width: 992px) {
@@ -541,6 +553,7 @@ section {
 .breadcrumbs h2 {
   font-size: 32px;
   font-weight: 500;
+  margin-top: -10px;
 }
 
 .breadcrumbs p {
