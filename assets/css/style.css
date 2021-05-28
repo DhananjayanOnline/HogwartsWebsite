@@ -28,15 +28,14 @@
 }
 
 .ecommerce-gallery {
-  width: 50%;
-  height:;
- 
-  max-height:unset;
+  max-width: 400px;
+  max-height: 500px;
+  margin-left: 100px;
   
 }
        
 #map1 {
-  max-width: 200px;
+  max-width: 400px;
   max-height: 500px;
 }
 
