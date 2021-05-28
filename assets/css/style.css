@@ -12,31 +12,31 @@
 
  @import url('http://fonts.cdnfonts.com/css/harry-potter');
 
-#carouselExampleSlidesOnly{
-  height: 350px;
-  margin-top: -60px;
-  width: 86%;
-  margin-left: 80px;
-}
+ #topSlider {
+   margin-top: -40px;
+ }
 
-.font-weight-bold {
+ .font-weight-bold {
   color: white;
-  width: 80%;
-  align-content: center;
   text-align: center;
-  margin-left: 100px;
+  flex-wrap: wrap;
+  align-content: center
 }
 
 .ecommerce-gallery {
   max-width: 400px;
-  max-height: 500px;
-  margin-left: 100px;
+  max-height: 595px;
+  
   
 }
        
 #map1 {
   max-width: 400px;
   max-height: 500px;
+}
+
+#map-campus {
+  float: left;
 }
 
 body {
@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo a {
   color: #000000;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 #header .logo img {
@@ -572,9 +572,8 @@ section {
 }
 
 .breadcrumbs h2 {
-  font-size: 32px;
+  font-size: 45px;
   font-weight: 500;
-  margin-top: -10px;
 }
 
 .breadcrumbs p {
