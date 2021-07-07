@@ -77,7 +77,7 @@
 }
 
 #hero h2 {
-  color: #aeaeae;
+  color: #ffffff;
   margin-bottom: 30px;
   font-size: 14px;
   font-weight: 400;
@@ -128,8 +128,8 @@
 .holdingcontainer{
   max-width: 100%;
   display: flex;
-  background: #ffc728;
-  padding: 18px;
+  background: #ff1010;
+  padding: 10px;
   box-sizing: border-box;
   flex-direction: row;
 }
@@ -140,7 +140,8 @@
   padding: 30px;
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
-  margin: 3px;
+  margin: 0px;
+  text-align: center;
 }
 
 .internalcontainerM{
@@ -149,7 +150,8 @@
   padding: 30px;
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
-  margin: 3px;
+  margin: 0px;
+  text-align: center;
 }
 
 .internalcontainerR{
@@ -187,7 +189,11 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
-
+h2{
+  font-family: 'Harry Potter', sans-serif; text-align: center;
+  font-size: xx-large;
+  color: white;
+}
 
 p{
   color: white;
@@ -604,7 +610,7 @@ body { font-family: sans-serif; }
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: rgba(55, 66, 59, 0.08);
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -623,7 +629,7 @@ body { font-family: sans-serif; }
 }
 
 #header .logo a {
-  color: #000000;
+  color: #ffffff;
   font-size: 17px;
 }
 
@@ -983,25 +989,16 @@ section {
 }
 
 .section-title h2 {
-  font-size: 14px;
+  font-size: xx-large;
   font-weight: 500;
   padding: 0;
-  line-height: 1px;
-  margin: 0 0 5px 0;
+  font-family: 'Harry Potter', sans-serif; text-align: center;
   letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #aaaaaa;
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
 }
 
-.section-title h2::after {
-  content: "";
-  width: 120px;
-  height: 1px;
-  display: inline-block;
-  background: #9ae1af;
-  margin: 4px 10px;
-}
+
 
 .section-title p {
   margin: 0;
@@ -1177,7 +1174,7 @@ section {
 # Features
 --------------------------------------------------------------*/
 .features {
-  padding-top: 0px;
+  padding-top: 10px;
 }
 
 .features .icon-box {
@@ -1233,7 +1230,7 @@ section {
 }
 
 .courses .course-content h3 a {
-  color: #37423b;
+  color: rgba(55, 66, 59, 0.08);
   transition: 0.3s;
 }
 
